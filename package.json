@@ -4,6 +4,7 @@
   "description": "A machine box.",
   "main": "index.js",
   "scripts": {
+    "start": "DEBUG=* node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/qilei0529/AI017/issues"
   },
-  "homepage": "https://github.com/qilei0529/AI017#readme"
+  "homepage": "https://github.com/qilei0529/AI017#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "debug": "^2.6.3",
+    "koa": "^2.2.0"
+  }
 }
